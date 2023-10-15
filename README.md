@@ -7,13 +7,15 @@ To add the desired kernel, launch a terminal and execute the following:
 
 ### Java
 ```
- ~ % docker exec -ti --user root jupyter_embedded_dd_vm /bin/sh -c "curl -s https://github.com/CaptainApollo/jupyter/edit/main/addJava.sh | bash"
+ ~ % docker exec -ti --user root jupyter_embedded_dd_vm /bin/sh -c "curl -s https://raw.githubusercontent.com/CaptainApollo/jupyter/main/addJava.sh | bash"
 ```
 
 ### Go
 
 ```
- ~ % docker exec -ti --user root jupyter_embedded_dd_vm /bin/sh -c "curl -s https://github.com/CaptainApollo/jupyter/edit/main/addGo.sh | bash"
+ ~ % docker exec -ti --user root jupyter_embedded_dd_vm /bin/sh -c "curl -s https://raw.githubusercontent.com/CaptainApollo/jupyter/main/addGo.sh | bash"
 ```
+
+
 
 Finally, restart the extension (close, then reopen) to complete installation.
